@@ -18,6 +18,22 @@ li {
     margin-right: 7px;
 }
 
+#Games {
+    margin-left: 50px;
+}
+
+#Gallery {
+    margin-left: 50px;
+}
+
+#Notices {
+    margin-left: 50px;
+}
+
+#Contact {
+    margin-left: 50px;
+}
+
 li a {
     text-align: left;
     background-color: #000000;
