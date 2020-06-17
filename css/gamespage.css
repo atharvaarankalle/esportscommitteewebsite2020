@@ -1,0 +1,245 @@
+* {
+    border: 0;
+    padding: 0;
+    margin: 0;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    z-index: 10;
+    width: 100%;
+    background-color: #000000;
+    border-bottom: 0.2em solid #ff0000;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 10;
+}
+
+li {
+    float: left;
+    background-color: #000000;
+    text-decoration: none;
+}
+
+#Separator {
+    background-color: #000000;
+    font-size: 1.8vw;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #FFFFFF;
+    text-decoration: none;
+    list-style-type: none;
+    margin: auto;
+    padding: 0;
+    overflow: hidden;
+}
+
+#Home {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#Games {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#Gallery {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#Notices {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#Contact {
+    margin-left: 20px;
+}
+
+li a {
+    text-align: left;
+    background-color: #000000;
+    font-size: 1.8vw;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    color: #FFFFFF;
+    text-decoration: none;
+    list-style-type: none;
+    margin: auto;
+    padding: 0;
+    overflow: hidden;
+}
+
+li a:hover {
+    color: #ff0000;
+}
+
+body {
+    background: #363636;
+}
+
+h2 {
+    font-size: 6vw;
+    color: #FFFFFF;
+    margin-top: 60px;
+    text-align: center;
+}
+
+.container1 {
+    position: relative;
+    width: 30%;
+    margin-top: 11vw;
+    margin-left: 1vw;
+}
+
+.image1 {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.overlay1 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.7);
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    -webkit-transform: scale(0);
+    -ms-transform: scale(0);
+    transform: scale(0);
+    -webkit-transition: .3s ease;
+    transition: .3s ease;
+}
+
+.container1:hover .overlay1 {
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+}
+
+.text1 {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.container2 {
+    position: relative;
+    width: 30%;
+    margin-left: 35vw;
+    margin-top: -17vw;
+}
+
+.image2 {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.overlay2 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.7);
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    -webkit-transform: scale(0);
+    -ms-transform: scale(0);
+    transform: scale(0);
+    -webkit-transition: .3s ease;
+    transition: .3s ease;
+}
+
+.container2:hover .overlay2 {
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+}
+
+.text2 {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.container3 {
+    position: relative;
+    width: 30%;
+    margin-left: 69vw;
+    margin-top: -16.9vw;
+    margin-right: 1vw;
+}
+
+.image3 {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.overlay3 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.7);
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    -webkit-transform: scale(0);
+    -ms-transform: scale(0);
+    transform: scale(0);
+    -webkit-transition: .3s ease;
+    transition: .3s ease;
+}
+
+.container3:hover .overlay3 {
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+}
+
+.text3 {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+p {
+    font-family: 'Courier New', Courier, monospace;
+    color: #FFFFFF;
+    text-align: center;
+    margin-top: 100px;
+    margin-left: 20px;
+    font-size: 1.6vw;
+}
