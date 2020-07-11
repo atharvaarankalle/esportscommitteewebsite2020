@@ -92,7 +92,9 @@ div {
     justify-content: center;
     font-weight: bold;
     font-family: "Courier New", 'Courier New', Courier, monospace;
-    width: 100%;
+    font-size: 1.8vw;
+    color: #FFFFFF;
+    width: 100vw;
     height: 100vh;
 }
 
@@ -101,12 +103,15 @@ div:nth-child(2) {
     background: linear-gradient(rgba(0, 0, 0, 0.6),
             rgba(0, 0, 0, 0.6)),
         url("../images/Index image.png");
-    width: 1919px;
-    height: 950px;
+    width: 100vw;
+    height: 100vh;
     z-index: 1;
+    overflow: hidden;
 }
 
 div:nth-child(3) {
     background: #363636;
-    width: 1919px;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
 }
