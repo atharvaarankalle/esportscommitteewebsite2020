@@ -80,14 +80,14 @@ li a:hover {
 }
 
 h2 {
-    font-size: 7vw;
+    font-size: 8vw;
     margin-left: 2vw;
     color: #FFFFFF;
     padding: 8px 24px;
     border-radius: 16px;
     align-self: center;
     vertical-align: auto;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: sofia-pro, sans-serif;
 }
 
 div {
@@ -114,13 +114,15 @@ h3 {
     font-size: 3vw;
     margin-top: 5vw;
     margin-left: 40vw;
-    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    font-family: sofia-pro, sans-serif;
 }
 
 h4 {
     margin-top: 10vw;
-    margin-left: -35vw;
-    font-family: 'Courier New', Courier, monospace;
+    margin-left: -30vw;
+    font-family: sofia-pro, sans-serif;
+    text-align: center;
 }
 
 div:nth-child(3) {
@@ -143,20 +145,20 @@ div:nth-child(3) {
     border-style: solid;
     border-width: 0.2vw;
     margin-top: 20vw;
-    margin-left: -58.5vw;
+    margin-left: -52vw;
 }
 
 #Title {
     font-size: 1.5vw;
     text-align: center;
     margin-left: -0.1vw;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: sofia-pro, sans-serif;
 }
 
 #Content {
-    font-size: 0.5vw;
+    font-size: 0.7vw;
     text-align: center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: sofia-pro, sans-serif;
 }
 
 #contentSection2 {
