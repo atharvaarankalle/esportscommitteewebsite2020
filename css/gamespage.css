@@ -96,10 +96,9 @@ h2 {
 .container1 {
     position: relative;
     width: 30%;
-    margin-top: 10vw;
+    margin-top: 3vw;
     /*margin-top: 11vw*/
     margin-left: 1vw;
-    /*margin-left: 1vw*/
 }
 
 .image1 {
@@ -148,8 +147,7 @@ h2 {
     position: relative;
     width: 30%;
     margin-left: 34.5vw;
-    /*margin-left: 35vw*/
-    margin-top: -17vw;
+    margin-top: -10vw;
     /*margin-top: -17vw*/
 }
 
@@ -199,11 +197,9 @@ h2 {
     position: relative;
     width: 30%;
     margin-left: 68vw;
-    /*margin-left: 69vw*/
-    margin-top: -16.9vw;
+    margin-top: -24vw;
     /*margin-top: -16.9vw*/
     margin-right: 1vw;
-    /*margin-right: 1vw*/
 }
 
 .image3 {
@@ -252,6 +248,8 @@ h3 {
     font-family: sofia-pro, sans-serif;
     color: #FFFFFF;
     text-align: center;
-    margin-top: 7vw;
+    margin-top: 5vw;
+    margin-bottom: 5vw;
+    /*margin-top: 9vw;*/
     font-size: 2vw;
 }
