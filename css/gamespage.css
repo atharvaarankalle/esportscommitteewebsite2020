@@ -2,6 +2,8 @@
     border: 0;
     padding: 0;
     margin: 0;
+
+
 }
 
 nav {
@@ -248,8 +250,21 @@ h3 {
     font-family: sofia-pro, sans-serif;
     color: #FFFFFF;
     text-align: center;
-    margin-top: 5vw;
+    margin-top: 1vw;
     margin-bottom: 5vw;
     /*margin-top: 9vw;*/
     font-size: 2vw;
+}
+
+footer {
+    text-align: center;
+    list-style-type: none;
+    margin: auto;
+    background-color: #000000;
+    overflow: hidden;
+    border-top: 0.15em solid #ff0000;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #FFFFFF;
+    font-size: 1.6vw;
+    margin-top: 9.9vw;
 }

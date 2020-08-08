@@ -2,6 +2,7 @@
     border: 0;
     padding: 0;
     margin: 0;
+    overflow-x: hidden;
 }
 
 nav {
@@ -191,4 +192,17 @@ div:nth-child(3) {
     margin-top: 20vw;
     align-items: center;
     margin-left: 6vw;
+}
+
+footer {
+    text-align: center;
+    list-style-type: none;
+    margin: auto;
+    background-color: #000000;
+    overflow: hidden;
+    border-top: 0.15em solid #ff0000;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #FFFFFF;
+    font-size: 1.6vw;
+
 }

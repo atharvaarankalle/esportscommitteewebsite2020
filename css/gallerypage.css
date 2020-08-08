@@ -84,6 +84,7 @@ body {
     background: #363636;
     width: 100vw;
     height: 90vh;
+    overflow-x: hidden;
 }
 
 h2 {
@@ -97,7 +98,7 @@ h2 {
 
 /* Slideshow container */
 .slideshowContainer {
-    max-width: 60vw;
+    max-width: 54.7vw;
     position: relative;
     margin: auto;
 }
@@ -202,4 +203,16 @@ h2 {
     to {
         opacity: 1
     }
+}
+
+footer {
+    text-align: center;
+    list-style-type: none;
+    margin: auto;
+    background-color: #000000;
+    border-top: 0.15em solid #ff0000;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #FFFFFF;
+    font-size: 1.6vw;
+    margin-top: 1.5vw;
 }
