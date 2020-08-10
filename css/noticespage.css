@@ -99,11 +99,51 @@ h2 {
 
 #infoIcon {
     position: relative;
-    max-width: 20vw;
-    top: 12vw;
+    max-width: 25vw;
+    top: 19vw;
     left: 74vw;
 
 
+}
+
+#heading1 {
+    position: relative;
+    font-family: sofia-pro, sans-serif;
+    color: #FFFFFF;
+    font-size: 2vw;
+    left: 7.85vw;
+    bottom: 14vw;
+    padding: 0;
+    text-decoration: underline;
+}
+
+#content1 {
+    position: relative;
+    font-family: sofia-pro, sans-serif;
+    color: #FFFFFF;
+    font-size: 1.3vw;
+    left: 7.85vw;
+    bottom: 13vw;
+}
+
+#heading2 {
+    position: relative;
+    font-family: sofia-pro, sans-serif;
+    color: #FFFFFF;
+    font-size: 2vw;
+    left: 7.85vw;
+    bottom: 4vw;
+    padding: 0;
+    text-decoration: underline;
+}
+
+#content2 {
+    position: relative;
+    font-family: sofia-pro, sans-serif;
+    color: #FFFFFF;
+    font-size: 1.3vw;
+    left: 7.85vw;
+    bottom: 3vw;
 }
 
 footer {
@@ -116,5 +156,5 @@ footer {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: #FFFFFF;
     font-size: 1.6vw;
-    margin-top: 15.13vw;
+    margin-top: 5.8vw;
 }
