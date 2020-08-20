@@ -134,3 +134,17 @@ h2 {
     top: 3vw;
     right: 20.24vw;
 }
+
+footer {
+    position: relative;
+    text-align: center;
+    list-style-type: none;
+    margin: auto;
+    background-color: #000000;
+    overflow: hidden;
+    border-top: 0.15em solid #ff0000;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #FFFFFF;
+    font-size: 1.6vw;
+    top: 11.4vw;
+}
