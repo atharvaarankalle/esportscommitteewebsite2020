@@ -2,7 +2,6 @@
     border: 0;
     padding: 0;
     margin: 0;
-    box-sizing: border-box;
 }
 
 nav {
@@ -100,13 +99,14 @@ h2 {
     font-family: sofia-pro, sans-serif;
 }
 
-#feedbackForm {
+.feedbackForm {
     position: relative;
     color: #FFFFFF;
     font-family: sofia-pro, sans-serif;
     font-size: 2vw;
-    top: 7vw;
+    top: 6vw;
     left: 7vw;
+    width: 100%;
 }
 
 #Text1 {
@@ -132,11 +132,21 @@ h2 {
     font-size: 1.2vw;
     width: 5vw;
     top: 3vw;
-    right: 20.24vw;
+    right: 20.9vw;
+}
+
+#pageContainer {
+    position: relative;
+    min-height: 93vh;
+}
+
+#contentContainer {
+    padding-bottom: 4.5vh;
 }
 
 footer {
-    position: relative;
+    position: absolute;
+    height: 4.5vh;
     text-align: center;
     list-style-type: none;
     margin: auto;
@@ -146,5 +156,23 @@ footer {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: #FFFFFF;
     font-size: 1.6vw;
-    top: 11.4vw;
+    width: 100%;
+    bottom: 0;
+}
+
+@media screen and (min-width: 200px) and (max-width: 600px) {
+
+
+    #Text1,
+    #Text2,
+    #Text3 {
+        width: 70%;
+    }
+
+    #submitButton {
+        position: relative;
+        right: 71.3%;
+        width: 20%;
+        top: 3vh;
+    }
 }
