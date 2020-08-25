@@ -210,34 +210,3 @@ footer {
     font-size: 1.6vw;
 
 }
-
-@media screen and (min-width: 200px) and (max-width: 600px) {
-
-    #contentBackground {
-        width: 100%;
-        height: 105%;
-    }
-
-    #contentSection1 {
-        margin-top: 20vh;
-        margin-left: -67vw;
-        width: 70%;
-        height: 50%;
-    }
-
-    #contentSection2 {
-        margin-top: 20vh;
-        width: 70%;
-        height: 50%;
-    }
-
-    #contentSection3 {
-        margin-top: 20vh;
-        width: 65%;
-        height: 50%;
-    }
-
-    h3 {
-        width: 50%;
-    }
-}
