@@ -7,6 +7,7 @@
     <title>Esports Committee 2020</title>
     <link rel="stylesheet" type="text/css" href="css/contactpage.css">
     <link rel="stylesheet" href="https://use.typekit.net/vxo6dbl.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
 </head>
 
 <body>
@@ -30,14 +31,14 @@
 
             <img id="contactIcon" src="images/contacticon.png">
 
-            <form id="feedbackForm" method="post" name="feedbackForm" action="feedbackform.php">
+            <form id="feedbackForm" name="feedbackForm">
                 <label>Name</label><br>
                 <input type="text" id="Text1" name="name"><br><br>
                 <label>Email Address</label><br>
                 <input type="text" id="Text2" name="email"><br><br>
                 <label>Question/Comment</label><br>
-                <textarea id="Text3" name="comments"></textarea>
-                <input type="submit" value="Submit" id="submitButton">
+                <textarea id="Text3" name="comment"></textarea>
+                <input type="submit" value="Submit" id="submitButton" onlick="confirm()">
             </form>
 
         </div>
