@@ -175,4 +175,8 @@ footer {
         width: 20%;
         top: 3vh;
     }
+
+    footer {
+        width: 100%;
+    }
 }
