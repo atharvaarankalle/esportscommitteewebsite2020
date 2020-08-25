@@ -28,13 +28,15 @@
         <div id="contentContainer">
             <h2>Esports Committee 2020: Contact</h2>
 
-            <form id="feedbackForm">
+            <img id="contactIcon" src="images/contacticon.png">
+
+            <form id="feedbackForm" method="post" name="feedbackForm" action="feedbackform.php">
                 <label>Name</label><br>
-                <input type="text" id="Text1"><br><br>
-                <label>Year Level</label><br>
-                <input type="text" id="Text2"><br><br>
+                <input type="text" id="Text1" name="name"><br><br>
+                <label>Email Address</label><br>
+                <input type="text" id="Text2" name="email"><br><br>
                 <label>Question/Comment</label><br>
-                <textarea id="Text3"></textarea>
+                <textarea id="Text3" name="comments"></textarea>
                 <input type="submit" value="Submit" id="submitButton">
             </form>
 
@@ -44,6 +46,7 @@
         </footer>
 
     </div>
+    <script src="js/feedbackform.js"></script>
 </body>
 
 </html>

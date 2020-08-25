@@ -105,8 +105,16 @@ h2 {
     color: #FFFFFF;
     font-family: sofia-pro, sans-serif;
     font-size: 2vw;
-    top: 7vw;
+    bottom: 15vw;
     left: 7vw;
+}
+
+#contactIcon {
+    position: relative;
+    max-width: 50vw;
+    padding: 0;
+    top: 13vw;
+    left: 55vw;
 }
 
 #Text1 {
