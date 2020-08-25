@@ -87,6 +87,7 @@ body {
     background: #363636;
     width: 100vw;
     height: 90vh;
+    overflow-x: hidden;
 }
 
 h2 {

@@ -133,26 +133,35 @@ h2 {
     width: 5vw;
     top: 3vw;
     right: 20.24vw;
-<<<<<<< HEAD
+}
+
+#pageContainer {
+    position: relative;
+    min-height: 93vh;
+}
+
+#contentContainer {
+    padding-bottom: 4.5vh;
 }
 
 footer {
-    position: relative;
+    position: absolute;
     text-align: center;
     list-style-type: none;
     margin: auto;
+    height: 4.5vh;
     background-color: #000000;
     overflow: hidden;
     border-top: 0.15em solid #ff0000;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: #FFFFFF;
     font-size: 1.6vw;
-<<<<<<< HEAD
     width: 100%;
     bottom: 0;
+
 }
 
-@media screen and (min-width: 200px) and (max-width: 600px) {
+/*@media screen and (min-width: 200px) and (max-width: 600px) {
 
 
     #Text1,
@@ -171,9 +180,4 @@ footer {
     footer {
         width: 100%;
     }
-=======
-    top: 11.4vw;
->>>>>>> parent of 78ef8f3... Fixing footer functionality and adding responsive design for mobile devices
-=======
->>>>>>> parent of 2b3d3e9... Implementing Sprint Two changes
-}
+}*/

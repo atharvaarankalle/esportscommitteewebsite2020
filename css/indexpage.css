@@ -210,3 +210,18 @@ footer {
     font-size: 1.6vw;
 
 }
+
+@media only screen and (min-width: 200px) and (max-width: 800px) {
+
+    #contentSection1 {
+        height: 50vh;
+    }
+
+    #contentSection2 {
+        height: 50vh;
+    }
+
+    #contentSection3 {
+        height: 50vh;
+    }
+}
