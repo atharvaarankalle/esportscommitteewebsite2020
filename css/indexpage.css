@@ -211,7 +211,7 @@ footer {
 
 }
 
-@media only screen and (min-width: 200px) and (max-width: 800px) {
+@media only screen and (min-width: 550px) and (max-width: 1060px) {
 
     #contentSection1 {
         height: 50vh;
@@ -223,5 +223,58 @@ footer {
 
     #contentSection3 {
         height: 50vh;
+    }
+}
+
+@media only screen and (min-width: 200px) and (max-width: 550px) {
+
+    nav {
+        z-index: 30;
+    }
+
+    h3,
+    h4 {
+        width: 100%;
+    }
+
+    h3 {
+        z-index: 10;
+        margin-left: 20vw;
+    }
+
+    h4 {
+        z-index: 20;
+        margin-left: -60vw;
+    }
+
+    #contentSection1 {
+        overflow-y: scroll;
+        position: relative;
+        left: -29vw;
+        top: 10vw;
+        width: 30%;
+        height: 70vh;
+    }
+
+    #contentSection2 {
+        overflow-y: scroll;
+        position: relative;
+        left: -15vw;
+        top: 10vw;
+        width: 30%;
+        height: 70vh;
+    }
+
+    #contentSection3 {
+        overflow-y: scroll;
+        position: relative;
+        left: -2vw;
+        top: 10vw;
+        width: 30%;
+        height: 70vh;
+    }
+
+    #Content {
+        font-size: 0.4vw;
     }
 }
