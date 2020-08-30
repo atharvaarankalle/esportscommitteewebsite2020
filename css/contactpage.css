@@ -169,23 +169,34 @@ footer {
 
 }
 
-/*@media screen and (min-width: 200px) and (max-width: 600px) {
+@media only screen and (min-width: 200px) and (max-width: 1920px) {
+
+    body {
+        height: 80%;
+        width: 100%;
+    }
+
+    footer {
+        position: relative;
+        top: 44vh;
+        width: 110vw;
+    }
+
+}
+
+@media screen and (min-width: 200px) and (max-width: 1000px) {
 
 
     #Text1,
     #Text2,
     #Text3 {
-        width: 70%;
+        width: 50%;
     }
 
     #submitButton {
         position: relative;
-        right: 71.3%;
+        right: 50.4%;
         width: 20%;
         top: 3vh;
     }
-
-    footer {
-        width: 100%;
-    }
-}*/
+}

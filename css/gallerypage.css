@@ -117,15 +117,16 @@ h2 {
 .next {
     cursor: pointer;
     position: absolute;
-    top: 50%;
+    top: 2.9%;
     width: auto;
     margin-top: -1.2vw;
+    height: 41vw;
     padding: 0.8vw;
     color: white;
     font-weight: bold;
     font-size: 0.9vw;
+    text-align: center;
     transition: 0.6s ease;
-    border-radius: 0 0.4vw 0.4vw 0;
     user-select: none;
     background-color: rgba(0, 0, 0, 0.8);
 }
@@ -133,7 +134,14 @@ h2 {
 /* Position the "next button" to the right */
 .next {
     right: 0;
-    border-radius: 0.4vw 0 0 0.4vw;
+}
+
+#previousButton {
+    margin-top: 15vw;
+}
+
+#nextButton {
+    margin-top: 15vw;
 }
 
 /* On hover, add a black background color with a little bit see-through */
@@ -148,7 +156,7 @@ h2 {
     font-size: 1.4vw;
     padding: 1vw 1.2vw;
     position: absolute;
-    bottom: 0.25vw;
+    bottom: 0.24vw;
     width: 100%;
     text-align: center;
     background-color: rgba(0, 0, 0, 0.8);
@@ -160,6 +168,7 @@ h2 {
     font-size: 1vw;
     padding: 1vw 1.2vw;
     position: absolute;
+    left: 3.8%;
     top: 0;
     background-color: rgba(0, 0, 0, 0.4);
 }

@@ -31,7 +31,8 @@
 
             <img id="contactIcon" src="images/contacticon.png">
 
-            <form id="feedbackForm" name="feedbackForm" onsubmit="return false">
+            <!--<form id="feedbackForm" name="feedbackForm" onsubmit="return false" action="https://formspree.io/xqkyvlag"
+                method="POST">
                 <label>Name</label><br>
                 <input type="text" id="Text1" name="name"><br><br>
                 <label>Email Address</label><br>
@@ -39,6 +40,16 @@
                 <label>Question/Comment</label><br>
                 <textarea id="Text3" name="comment"></textarea>
                 <input type="submit" value="Submit" id="submitButton" onclick="confirm()">
+            </form>-->
+
+            <form id="feedbackForm" name="feedbackForm" action="https://formspree.io/xqkyvlag" method="POST">
+                <label>Name</label><br>
+                <input type="text" id="Text1" name="name"><br><br>
+                <label>Email Address</label><br>
+                <input type="email" id="Text2" name="email"><br><br>
+                <label>Question/Comment</label><br>
+                <textarea id="Text3" name="comment"></textarea>
+                <input type="submit" value="Submit" id="submitButton">
             </form>
 
         </div>

@@ -149,15 +149,43 @@ h2 {
     bottom: 3vw;
 }
 
+#pageContainer {
+    position: relative;
+    min-height: 93vh;
+}
+
+#contentContainer {
+    padding-bottom: 4.5vh;
+}
+
 footer {
+    position: absolute;
     text-align: center;
     list-style-type: none;
     margin: auto;
+    height: 4.5vh;
     background-color: #000000;
     overflow: hidden;
     border-top: 0.15em solid #ff0000;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: #FFFFFF;
     font-size: 1.6vw;
-    margin-top: 5.8vw;
+    width: 100%;
+    bottom: 0;
+
+}
+
+@media only screen and (min-width: 200px) and (max-width: 1920px) {
+
+    body {
+        height: 80%;
+        width: 100%;
+    }
+
+    footer {
+        position: relative;
+        top: 29.4vh;
+        width: 110vw;
+    }
+
 }
