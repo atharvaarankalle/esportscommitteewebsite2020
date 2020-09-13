@@ -1,9 +1,11 @@
+/*Setting the border, padding and margin for the entire page to zero*/
 * {
     border: 0;
     padding: 0;
     margin: 0;
 }
 
+/*Fixing the navigation bar at the top of the page and bringing it in front of all other content*/
 nav {
     position: fixed;
     top: 0;
@@ -13,18 +15,21 @@ nav {
     border-bottom: 0.2em solid #ff0000;
 }
 
+/*Removing all default styling for the unordered list in the navigation bar*/
 ul {
     list-style-type: none;
     margin: 0;
     padding: 10;
 }
 
+/*Setting the background color and specifying the position of the list items in the navigation bar*/
 li {
     float: left;
     background-color: #000000;
     text-decoration: none;
 }
 
+/*Styling the separators*/
 #Separator {
     background-color: #000000;
     font-size: 1.8vw;
@@ -37,6 +42,7 @@ li {
     overflow: hidden;
 }
 
+/*Setting the positions of the navigation bar links*/
 #Home {
     margin-left: 20px;
     margin-right: 20px;
@@ -61,6 +67,7 @@ li {
     margin-left: 20px;
 }
 
+/*Styling the navigation bar links*/
 li a {
     text-align: left;
     background-color: #000000;
@@ -79,10 +86,12 @@ li a {
     -o-transition: color 0.5s;
 }
 
+/*Setting the hover colour for the navigation bar links*/
 li a:hover {
     color: #ff0000;
 }
 
+/*Applying a background colour to the body*/
 body {
     background: #363636;
     width: 100vw;
@@ -90,6 +99,7 @@ body {
     overflow-x: hidden;
 }
 
+/*Styling the heading*/
 h2 {
     font-size: 5.6vw;
     color: #FFFFFF;
@@ -98,10 +108,12 @@ h2 {
     font-family: sofia-pro, sans-serif;
 }
 
+/*Setting the display type for the content section*/
 #contentSection {
     display: inline-block;
 }
 
+/*Setting the position and size of the information icon*/
 #infoIcon {
     position: relative;
     max-width: 50vw;
@@ -109,6 +121,7 @@ h2 {
     left: 60vw;
 }
 
+/*Styling the "This Week" heading*/
 #heading1 {
     position: relative;
     font-family: sofia-pro, sans-serif;
@@ -120,6 +133,7 @@ h2 {
     text-decoration: underline;
 }
 
+/*Styling the "This Week" content text*/
 #content1 {
     position: relative;
     font-family: sofia-pro, sans-serif;
@@ -129,6 +143,7 @@ h2 {
     bottom: 13vw;
 }
 
+/*Styling the "Past Tournaments" heading*/
 #heading2 {
     position: relative;
     font-family: sofia-pro, sans-serif;
@@ -140,6 +155,7 @@ h2 {
     text-decoration: underline;
 }
 
+/*Styling the "Past Tournaments" content text*/
 #content2 {
     position: relative;
     font-family: sofia-pro, sans-serif;
@@ -149,15 +165,18 @@ h2 {
     bottom: 3vw;
 }
 
+/*Setting the height of the overall page container*/
 #pageContainer {
     position: relative;
     min-height: 93vh;
 }
 
+/*Setting the distance between the content and the footer*/
 #contentContainer {
     padding-bottom: 4.5vh;
 }
 
+/*Styling the footer element*/
 footer {
     position: absolute;
     text-align: center;
@@ -175,6 +194,7 @@ footer {
 
 }
 
+/*Applying a media query for responsive design between a screen width of 200 - 1920px*/
 @media only screen and (min-width: 200px) and (max-width: 1920px) {
 
     body {

@@ -5,11 +5,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Esports Committee 2020</title>
+    <!--Linking the external CSS file for the gallery page-->
     <link rel="stylesheet" type="text/css" href="css/gallerypage.css">
+    <!--Linking the external CSS file for the third party installed fonts-->
     <link rel="stylesheet" href="https://use.typekit.net/vxo6dbl.css">
 </head>
 
 <body>
+    <!--The navigation bar, with vertical separators in between the links for each page-->
     <nav>
         <ul>
             <li id="Home"><a href="index.html">Home</a></li>
@@ -25,38 +28,47 @@
     </nav>
 
     <div id="pageContainer">
+        <!--The div containing the page content-->
         <div id="contentContainer">
             <h2>Esports Committee 2020: Gallery</h2>
 
+            <!--The div containing the web slideshow-->
             <div class="slideshowContainer">
+
+                <!--The first slide-->
                 <div class="imageSlides fade">
                     <div class="numberText">1 / 3</div>
                     <img src="images/firstevent.png" style="width:100%">
                     <div class="caption">The Esports Committee Brawlhalla Tournament</div>
                 </div>
 
+                <!--The second slide-->
                 <div class="imageSlides fade">
                     <div class="numberText">2 / 3</div>
                     <img src="images/mariokartwinners.png" style="width:100%">
                     <div class="caption">The Four Mario Kart Tournament Winners!</div>
                 </div>
 
+                <!--The third slide-->
                 <div class="imageSlides fade">
                     <div class="numberText">3 / 3</div>
-                    <img src="images/BrawlhallaSlideshow.png" style="width:100%;">
-                    <div class=" caption">Caption Three
-                    </div>
+                    <img src="images/committeephoto.png" style="width:100%;">
+                    <div class=" caption">Esports Full Committee Photo</div>
                 </div>
 
+                <!--The "previous" button for the slideshow-->
                 <button class="prev" onclick="plusSlides(-1)" id="previousButton">
                     <p id="previousArrow">&#10094;</p>
                     </a>
+
+                    <!--The "next" button for the slideshow-->
                     <button class="next" onclick="plusSlides(1)" id="nextButton">
                         <p id="nextArrow">&#10095;</p>
                         </a>
             </div>
             <br>
 
+            <!--The three dots at the bottom of the slideshow-->
             <div style="text-align:center">
                 <span class="selectDot" onclick="currentSlide(1)"></span>
                 <span class="selectDot" onclick="currentSlide(2)"></span>
@@ -68,6 +80,7 @@
             Designed and Developed by Atharva Arankalle
         </footer>
     </div>
+    <!--The script tag linking the external JavaScript file for the gallery page-->
     <script src="js/gallerypage.js"></script>
 </body>
 

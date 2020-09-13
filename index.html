@@ -4,13 +4,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Linking the external CSS file for the index page-->
     <link rel="stylesheet" type="text/css" href="css/indexpage.css">
+    <!--Linking the external CSS file for the "Animate On Scroll" third party library-->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!--Linking the external CSS file for the third party installed fonts-->
     <link rel="stylesheet" href="https://use.typekit.net/vxo6dbl.css">
     <title>Esports Committee 2020</title>
 </head>
 
 <body>
+    <!--The navigation bar, with vertical separators in between the links for each page-->
     <nav>
         <ul>
             <li id="Home"><a href="index.html">Home</a></li>
@@ -25,13 +29,16 @@
         </ul>
     </nav>
 
+    <!--The div section containing the banner image and title-->
     <div id="parallax">
         <h2>Esports Committee 2020</h2>
     </div>
 
+    <!--The div section containing the portion of the page that will scroll at a different rate to the banner image-->
     <div id="contentBackground">
         <h3>Welcome!</h3>
         <h4>Scroll down to learn more about the Esports Committee!</h4>
+        <!--The first fade in box, utilising the "Animate On Scroll" third party library-->
         <div id="contentSection1" data-aos="fade-right" data-aos-duration="1000">
             <h2 id="Title">What We Do</h2>
             <br>
@@ -39,22 +46,28 @@
                 games!<br><br>If you’re looking for something more competitive, we will also be holding tournaments with
                 prizes for the winners!</p>
         </div>
+        <!--The second fade in box, utilising the "Animate On Scroll" third party library-->
         <div id="contentSection2" data-aos="fade-down" data-aos-duration="1000">
             <h2 id="Title">What Games Are Run</h2>
             <br>
-            <p id="Content">Text Here</p>
+            <p id="Content">We are open to running any game, so long as it is suitable for audiences under 18 years old.
+                If you would like to see a particular game played, come and talk to one of the leaders!</p>
         </div>
+        <!--The third fade in box, utilising the "Animate On Scroll" third party library-->
         <div id="contentSection3" data-aos="fade-left" data-aos-duration="1000">
             <h2 id="Title">Who Can Come</h2>
             <br>
-            <p id="Content">More Text Here</p>
+            <p id="Content">Anyone is welcome to come and join in! Skill level or experience does not matter, so feel
+                free to come along to a lunchtime or two, meet new people and play some games!<br><br>Can't wait to see
+                you there!</p>
         </div>
     </div>
 
-
-
+    <!--The first script tag linking the external JavaScript file for the index page-->
     <script src="js/indexpage.js"></script>
+    <!--The second script tag linking the external JavaScript file for the third party library "Animate On Scroll"-->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!--The final script tag initialising the "Animate On Scroll" library-->
     <script>
         AOS.init();
     </script>
@@ -65,9 +78,3 @@
 </footer>
 
 </html>
-
-<!--Alrighty chiefs, what's going on?
-Welcome to the Esports Committee, where gamers rise up and rank up.
-We will be holding casual lunchtime gaming sessions, where anyone can chill and play some games!
-If you’re looking for something more competitive, we will also be holding tournaments with prizes for the winners!
-We can't wait to see you this year, let's get this bread!-->
