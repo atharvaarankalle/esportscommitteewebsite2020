@@ -31,7 +31,7 @@ li {
 }
 
 /*Styling the separators*/
-#Separator {
+.Separator {
     background-color: #000000;
     font-size: 1.8vw;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -166,7 +166,7 @@ div:nth-child(3) {
 }
 
 /*Styling the title for each fade in box*/
-#Title {
+.Title {
     font-size: 1.5vw;
     text-align: center;
     margin-left: -0.1vw;
@@ -174,7 +174,7 @@ div:nth-child(3) {
 }
 
 /*Styling the content text for each fade in box*/
-#Content {
+.Content {
     font-size: 0.7vw;
     text-align: center;
     font-family: sofia-pro, sans-serif;
@@ -289,7 +289,7 @@ footer {
         height: 70vh;
     }
 
-    #Content {
+    .Content {
         font-size: 0.4vw;
     }
 }
