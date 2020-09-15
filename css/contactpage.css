@@ -110,6 +110,16 @@ h2 {
     font-family: sofia-pro, sans-serif;
 }
 
+/*Styling the second heading*/
+h3 {
+    position: relative;
+    font-family: sofia-pro, sans-serif;
+    color: #FFFFFF;
+    text-align: center;
+    margin-top: 6vw;
+    font-size: 2vw;
+}
+
 /*Setting the position of the feedback form*/
 #feedbackForm {
     position: relative;
